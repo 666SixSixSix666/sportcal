@@ -1,0 +1,281 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #333333;
+
+  
+
+}
+*,
+*:before,
+*:after {
+box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+p {
+    margin: 0 0 10px;
+}
+
+
+/* Container 
+====================*/
+.container {
+    width: 100%;
+    max-width: 1190px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/* Header 
+====================*/
+
+.header {
+    width: 100%;
+    height: 75px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    
+    
+
+}
+
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 0px;
+    border-bottom: 1px solid #333333;
+     
+
+}
+
+
+
+.header__logo_link {
+    color: #000000;
+    text-decoration: none;
+    opacity: 0.80;
+    transition: opacity .1s linear;
+
+}
+
+
+
+
+.header__logo {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Nav
+====================*/
+
+.nav {
+    display: flex;
+    font-size: 18px;
+    font-weight: normal;
+    padding-top: 8px;
+   
+    
+    
+
+}
+
+.nav__link {
+    margin-left: 22px;
+    color: #333333;
+    text-decoration: none;
+    opacity: 0.80;
+    transition: opacity .1s linear;
+
+}
+.nav__link:first-child {
+    margin-left: 0px;
+}
+
+.nav__link:hover {
+    opacity: 1;
+    
+
+}
+
+
+
+
+/* Intro 
+====================*/
+
+.intro {
+
+
+    height: 1070px;
+    background: url(img/bg.jpg);
+    padding-top: 100px;
+}
+
+
+
+
+/* registration
+====================*/
+
+.h1__reg_enter {
+    cursor: help;
+    margin: 0;
+    text-transform: uppercase;
+    border-bottom: 3px solid #333333;
+}
+
+form {
+    margin: 50px auto;
+    background: rgba(220, 220, 220, 0.77);
+    width: 425px; 
+    height: 350px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, o, 0.82)
+     
+}
+
+.group {
+    margin: 10px;
+    padding: 5px;
+
+    
+
+
+}
+.label {
+    padding-left: 10px;
+    text-transform: uppercase;
+     
+
+}
+.input {
+    margin-top: 10px;
+    height: 40px;
+    width: 350px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 15px;
+    font-size: 13px;
+    box-shadow: 2px 2px 5px rgba(0, 0, o, 0.82);
+
+    
+}
+
+.input:focus {
+    transform: translateX(15px);
+    width:335px ;
+}
+
+
+.button__registration {
+    cursor: pointer;
+    padding: 10px 30px;
+    height: 55px;
+    color: #333333;
+    border: none;
+    background-color:aliceblue;
+    text-transform: uppercase;
+    font-size: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, o, 0.82);
+}
+
+
+.button__registration:hover {
+    opacity: .80;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* participant
+====================*/
+
+
+.form__participant {
+
+    margin: 50px auto;
+    background: rgba(220, 220, 220, 0.77);
+    width: 425px; 
+    height: 740px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, o, 0.82)
+
+}
+
+
+
+/* mero_registration
+====================*/
+
+
+.form__mero_registration {
+
+    margin: 50px auto;
+    background: rgba(220, 220, 220, 0.77);
+    width: 425px; 
+    height: 745px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, o, 0.82)
+
+}
+
+
+
+
+
+/* result
+====================*/
+
+
+.table_result {
+    margin: 50px auto;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: rgba(220, 220, 220, 0.77);
+    color: #333333;
+    border: 16px solid rgba(220, 220, 220, 0.77);
+    border-radius: 20px;
+ 
+}
+
+
+th {
+    font-size: 18px;
+    padding: 15px;
+}
+
+td {
+    background: #A9A9A9;
+    padding: 10px;
+}
+
+
+
+
+
+
+
